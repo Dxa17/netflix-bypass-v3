@@ -1,0 +1,20 @@
+{
+  "name": "@dxa17/netflix-bypass",
+  "appName": "Netflix Bypass",
+  "version": "3.0.0",
+  "description": "Netflix household verification bypass for TizenBrew",
+  "packageType": "mods",
+  "websiteURL": "https://www.netflix.com",
+  "main": "interceptor.js",
+  "serviceFile": "service.js",
+  "evaluateScriptOnDocumentStart": false,
+  "keys": [
+    "MediaPlayPause",
+    "MediaPlay",
+    "MediaPause",
+    "MediaStop"
+  ],
+  "repository": {
+    "url": "https://github.com/Dxa17/netflix-bypass"
+  }
+}
